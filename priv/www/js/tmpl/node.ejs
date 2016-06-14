@@ -284,6 +284,24 @@
   </table>
   </div>
 
+<div class="box">
+<h3>Statistics since node start</h3>
+<table class="facts">
+    <tr>
+      <th>GC runs</th>
+      <td><%= node.gc_num %></td>
+    </tr>
+    <tr>
+      <th>GC words reclaimed</th>
+      <td><%= node.gc_words_reclaimed %></td>
+    </tr>
+    <tr>
+      <th>Context switches</th>
+      <td><%= node.context_switches %></td>
+    </tr>
+</table>
+</div>
+
 <h3>All applications</h3>
 <table class="list">
     <tr>
